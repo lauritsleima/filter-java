@@ -2,6 +2,7 @@
 ___
 
 ## H2 andmebaas:
+- http://localhost:8080/h2-console/
 - JDBC url: jdbc:h2:mem:filter
 - username: sa
 - password:  
