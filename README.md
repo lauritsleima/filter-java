@@ -1,6 +1,11 @@
 # Laurits ja tema filtrid
 ___
 
+## H2 andmebaas:
+- JDBC url: jdbc:h2:mem:filter
+- username: sa
+- password:  
+
 ## Endpointid:
 - **api/filter/upsert**
 
@@ -27,10 +32,6 @@ Request body näide:
 - **api/filter/get/**
 
 **GET** päring tagastab baasist kõik filtrid.
-
-- **api/filter/get/{filterId}/**
-
-**GET** päring tagastab baasist filtrit vastavalt ID-le.
 
 - **api/filter/delete/{filterId}/**
 
